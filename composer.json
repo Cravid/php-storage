@@ -1,0 +1,25 @@
+{
+    "name": "cravid/storage",
+    "authors": [
+        {
+            "name": "David Schunke",
+            "email": "cravid@schunke.me"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.con.local.vmsn.de:cravid/event.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "cravid/event": "1.0.*-dev",
+        "psr/log": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cravid\\Storage\\": ""
+        }
+    }
+}
